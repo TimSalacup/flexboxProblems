@@ -99,7 +99,7 @@
 }
 .row-three{
     width: 70%;
-    max-width: 800px;
+    max-width: 500px;
     height: 150px;
     display: flex;
     flex-wrap: wrap;
@@ -113,8 +113,9 @@
 .box-split{
     border: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    height: 25%;
+    height: 24%;
     width: 100%;
 }
 .small-box{
