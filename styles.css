@@ -1,22 +1,24 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap);
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 .container{
     border: 4px solid black;
     width: 100%;
-    height: 150px;
     display: flex;
     padding: 24px;
     justify-content: space-between;
     align-items: center;
+    margin-top: 24px;
 }
+
 .box{
     border: 4px solid lightgray;
     width: 100px;
     height: 100px;
-    margin: 3px;
 }
 .box-wrapper{
     display: flex;
@@ -27,5 +29,31 @@
     height: 50px;
     margin-left: 17px;
 }
-
+.container-two{
+    justify-content: center;
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto 0 auto;
+    padding: 24px 24px 0 24px;;
+}
+.row-set{
+    width: 100%;
+    max-width: 400px;
+}
+.title{
+    border: 2px lightgray solid;
+    width: 100%;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.wrapper-two{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box-two{
+    width: 30%;
+    margin-bottom: 24px;
+}
 
