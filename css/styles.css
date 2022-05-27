@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap);
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    border: 4px solid black;
+    width: 100%;
+    display: flex;
+    padding: 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.box{
+    border: 4px solid lightgray;
+    width: 100px;
+    height: 100px;
+}
+.box-wrapper{
+    display: flex;
+    align-items: center;
+}
+.box-small{
+    width: 50px;
+    height: 50px;
+    margin-left: 17px;
+}
+.container-two{
+    justify-content: center;
+    width: 70%;
+    max-width: 900px;
+    margin: 30px auto 0 auto;
+    padding: 24px 24px 0 24px;;
+}
+.row-set{
+    width: 100%;
+    max-width: 400px;
+}
+.title{
+    border: 2px lightgray solid;
+    width: 100%;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.wrapper-two{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box-two{
+    width: 30%;
+    margin-bottom: 24px;
+}
+.container-three{
+    width: 80%;
+    max-width: 1000px; 
+    margin: 24px auto 0 auto;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+}
+.row-two{
+    width: 100%;
+    height: 250px;  
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column{
+    height: 100%;
+    width: 48%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.second-column{
+    border: 2px solid lightgray;
+    width: 100%;
+    height: 300px;
+}
+.box-three{
+    width: 100%;
+    height: 24%;
+    border: 2px solid lightgray;
+}
+.container-four{
+    width: 70%;
+    max-width: 1000px; 
+    margin: 24px auto 24px auto;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+}
+.row-three{
+    width: 70%;
+    max-width: 500px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box-four{
+    width: 100%;
+    height: 24%;
+    border: 2px solid lightgray;
+}
+.box-split{
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 24%;
+    width: 100%;
+}
+.small-box{
+    height: 100%;
+    width: 30%;
+    border: 2px solid lightgray;
+}
+.right-column{
+    border: 2px solid lightgray;
+    width: 100%;
+    height: 100%;
+}
